@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net46;</TargetFrameworks>
+    <SitecoreVersion>8.2.180406</SitecoreVersion>
+    <BaseOutputPath>bin\$(SitecoreVersion)</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sitecore.Kernel" Version="$(SitecoreVersion)" />
+    <PackageReference Include="Sitecore.Mvc" Version="$(SitecoreVersion)" />
+    <PackageReference Include="Sitecore.Web" Version="$(SitecoreVersion)" />
+  </ItemGroup>
+
+</Project>
